@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+#inicio {
+  background-color: #f0f0f0;
+}
+
+#servicos {
+  background-color: #ffffffa2;
+}
+
+#portfolio {
+  background-color: #dedede;
+  color: #333;
+}
+
+#sobre {
+  background-color: #ffffff7e;
+  text-align: left;
+}
+
+#contato {
+  background-color: #f0f0f0;
+}
+
+.navbar {
+  background-color: #ffffff;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#inicio nav {
+  padding: 40px 20px;
+}
+
+#brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #333;
+}
+
+#menu-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+#menu-list li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+#menu-list li a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+#servicos, #portfolio, #sobre, #contato {
+  padding: 60px 20px;
+}
+
+#servicos p, #portfolio p, #sobre-texto p, #contato p {
+  font-size: 1.1rem;
+}
+
+#sobre p {
+  font-size: 130%;
+}
+
+.card-title i {
+  margin-right: 8px;
+  color: #555;
+}
+
+img {
+  border-radius: 10px;
+}
+
+/* Estilos para a página Neurofocus */
+
+.neurofocus-page h1, .neurofocus-page h2, .neurofocus-page h3 {
+  color: #000;
+}
+
+.neurofocus-page section {
+  padding: 60px 20px;
+}
+
+.neurofocus-page .container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.neurofocus-page .img-fluid {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.neurofocus-page ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.neurofocus-page ul li {
+  margin-bottom: 8px;
+  list-style-type: disc;
+}
+
+.neurofocus-page .text-start {
+  text-align: left;
+}
+
+#barra {
+  background-color: #202020;
+  color: #f1f1f1
+}
+
+#meio {
+  background-color: #121212;
+  color: #f1f1f1
+}
+
+.neurofocus-page h1,
+.neurofocus-page h2,
+.neurofocus-page h3 {
+  color: #ffffff;
+  justify-content: center;
+}
+
+.neurofocus-page a {
+  color: #00bfff; 
+}
+
+.neurofocus-page a:hover {
+  color: #66ccff;
+  text-decoration: underline;
+}
+
+.neurofocus-page p li {
+  font-size: 130%;
+}
