@@ -211,3 +211,28 @@ a:hover {
 p {
   font-size: 22px;
 }
+
+/* Ajustes para serviços com 4 cards */
+#servicos .row {
+  justify-content: center;
+}
+
+#servicos .col {
+  max-width: 250px;
+  min-width: 200px;
+  flex-grow: 1;
+}
+
+@media (min-width: 992px) {
+  #servicos .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  #servicos .col {
+    flex: 1 1 20%;
+    max-width: 22%;
+  }
+}
