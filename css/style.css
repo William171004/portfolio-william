@@ -22,7 +22,7 @@ section {
 }
 
 h1, h2, h3, h5 {
-  color: #ffffff;
+  color: #66ccff;
 }
 
 p {
@@ -158,6 +158,15 @@ a:hover {
   text-align: left;
 }
 
+.neurofocus-page h1,
+.neurofocus-page h3 {
+  color: #1C338C;
+
+}
+
+.neurofocus-page ul li::marker {
+  color: #1C338C;
+}
 .neurofocus-page ul li {
   margin-bottom: 8px;
   list-style-type: disc;
@@ -178,7 +187,7 @@ a:hover {
 }
 
 .neurofocus-page a {
-  color: #00bfff;
+  color: #1C338C;
 }
 
 .neurofocus-page a:hover {
@@ -212,27 +221,85 @@ p {
   font-size: 22px;
 }
 
-/* Ajustes para serviços com 4 cards */
-#servicos .row {
-  justify-content: center;
+/* tyler page */
+
+body.tyler-page {
+  background-color: #121212;
+  color: #f0f0f0;
+  font-family: 'Rajdhani', sans-serif;
 }
 
-#servicos .col {
-  max-width: 250px;
-  min-width: 200px;
-  flex-grow: 1;
+body.tyler-page p{
+  font-size: 130%;
 }
 
-@media (min-width: 992px) {
-  #servicos .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-  }
-
-  #servicos .col {
-    flex: 1 1 20%;
-    max-width: 22%;
-  }
+body.tyler-page h1,
+body.tyler-page h3 {
+  color: #00844B;
 }
+
+body.tyler-page a.navbar-brand {
+  color: #00844B;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+body.tyler-page a.navbar-brand:hover {
+  color: #00a260;
+}
+
+body.tyler-page ul li::marker {
+  color: #00844B;
+}
+
+body.tyler-page li { 
+  font-size: 120%;
+}
+
+#meio {
+  padding: 40px 0;
+}
+
+#meio img {
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 255, 102, 0.2);
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilo exclusivo para a página do vídeo */
+body.video-page {
+  font-family: 'Rajdhani', sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body.video-page h1,
+body.video-page h3 {
+  color: #48c9b0; /* Azul esverdeado leve, sutil */
+}
+
+body.video-page .navbar {
+  background-color: #202020;
+}
+
+body.video-page .navbar a {
+  color: #48c9b0;
+  font-weight: bold;
+}
+
+body.video-page .navbar a:hover {
+  text-decoration: underline;
+}
+
+body.video-page a {
+  color: #48c9b0;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+body.video-page a:hover {
+  text-decoration: underline;
+}
+
+
