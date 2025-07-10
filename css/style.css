@@ -198,6 +198,12 @@ a:hover {
 .neurofocus-page p li {
   font-size: 22px;
 }
+.neurofocus-page img {
+  border-radius: 10px;
+  box-shadow: 0 0 15px #1C338C;
+  max-width: 100%;
+  height: auto;
+}
 
 /* === SOCIAL ICONS === */
 #contato a,
@@ -260,7 +266,7 @@ body.tyler-page li {
   padding: 40px 0;
 }
 
-#meio img {
+body.tyler-page img {
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 255, 102, 0.2);
   max-width: 100%;
@@ -301,5 +307,12 @@ body.video-page a {
 body.video-page a:hover {
   text-decoration: underline;
 }
+
+.card-img-top {
+  object-fit: cover;
+  height: 350px;
+  width: 100%;
+}
+
 
 
